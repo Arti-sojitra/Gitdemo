@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74822" started-at="2019-12-26T19:36:12Z" finished-at="2019-12-26T19:37:27Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="61482" started-at="2019-12-26T19:36:12Z" finished-at="2019-12-26T19:37:13Z">
+      <class name="Academy1.homepage">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Academy1.homepage@909217e]" name="initilize" is-config="true" duration-ms="14422" started-at="2019-12-26T11:36:12Z" finished-at="2019-12-26T11:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="PageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy1.homepage@909217e]" name="PageNavigation" duration-ms="32526" started-at="2019-12-26T11:36:26Z" data-provider="getdata" finished-at="2019-12-26T11:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dobariya.aarti@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageNavigation -->
+        <test-method status="PASS" signature="PageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy1.homepage@909217e]" name="PageNavigation" duration-ms="13903" started-at="2019-12-26T11:36:59Z" data-provider="getdata" finished-at="2019-12-26T11:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aarti.keyur.sojitra@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageNavigation -->
+        <test-method status="PASS" signature="tearsdown()[pri:0, instance:Academy1.homepage@909217e]" name="tearsdown" is-config="true" duration-ms="581" started-at="2019-12-26T11:37:13Z" finished-at="2019-12-26T11:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+      </class> <!-- Academy1.homepage -->
+    </test> <!-- HomePageTest -->
+    <test name="Apptest" duration-ms="5" started-at="2019-12-26T19:37:14Z" finished-at="2019-12-26T19:37:14Z">
+      <class name="Academy1.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Academy1.AppTest@5890e879]" name="testApp" duration-ms="5" started-at="2019-12-26T11:37:14Z" finished-at="2019-12-26T11:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Academy1.AppTest -->
+    </test> <!-- Apptest -->
+    <test name="ValidationTest" duration-ms="13091" started-at="2019-12-26T19:37:14Z" finished-at="2019-12-26T19:37:27Z">
+      <class name="Academy1.validation_homepage">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Academy1.validation_homepage@451001e5]" name="initilize" is-config="true" duration-ms="11837" started-at="2019-12-26T11:37:14Z" finished-at="2019-12-26T11:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="PageNavigation()[pri:0, instance:Academy1.validation_homepage@451001e5]" name="PageNavigation" duration-ms="607" started-at="2019-12-26T11:37:26Z" finished-at="2019-12-26T11:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageNavigation -->
+        <test-method status="PASS" signature="tearsdown()[pri:0, instance:Academy1.validation_homepage@451001e5]" name="tearsdown" is-config="true" duration-ms="645" started-at="2019-12-26T11:37:26Z" finished-at="2019-12-26T11:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+      </class> <!-- Academy1.validation_homepage -->
+    </test> <!-- ValidationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
